@@ -1,0 +1,6 @@
+Ruta: http://localhost:3000
+Respuesta: El servidor muestra el mensaje "Servidor activo".
+Ruta: http://localhost:3000/saludo
+Respuesta: El servidor responde con el mensaje "Hola comunidad".
+Ruta: http://localhost:3000/mensaje/juan
+Respuesta: El servidor responde con el mensaje "Hola juan", tomando el nombre desde la URL como parámetro dinámico.
