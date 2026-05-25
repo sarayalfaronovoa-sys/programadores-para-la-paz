@@ -1,0 +1,6 @@
+Repositorio  
+Un repositorio es el lugar donde se guarda todo el proyecto de software junto con su historial de cambios. Contiene los archivos del código fuente, documentación y recursos, además de registrar cada modificación realizada. Puede estar en tu computadora (repositorio local) o en un servidor remoto como GitHub, GitLab o Bitbucket.
+Commit  
+Un commit es un registro puntual de los cambios hechos en el proyecto. Captura el estado de los archivos en un momento específico y se acompaña de un mensaje que describe qué se modificó y por qué. Cada commit tiene un identificador único que permite rastrear y recuperar esa versión exacta del código.
+Push  
+El push es la acción de enviar los commits desde tu repositorio local hacia un repositorio remoto. Con esto, los cambios que hiciste se comparten con otros colaboradores y el repositorio remoto se actualiza con las nuevas versiones del código. Es el paso que sincroniza tu trabajo con el resto del equipo.
