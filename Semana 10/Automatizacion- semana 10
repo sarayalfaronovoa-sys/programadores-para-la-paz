@@ -1,0 +1,18 @@
+Diseño del flujo de automatización
+
+1. ¿Qué evento activa el flujo?:
+El evento disparador (trigger) es la inserción o creación exitosa de un nuevo reporte de incidencia por parte de un ciudadano en la base de datos de nuestra plataforma.
+
+2. ¿Qué mensaje se enviaría a Telegram?:
+ ¡Atención! Se ha registrado un nuevo reporte de incidencia en el sistema.
+- Tipo de incidente: {{ $json.tipo }}
+- Fecha: {{ $json.fecha }}
+Por favor, ingrese al panel de control para revisar el caso."
+
+3. ¿Qué información NO debería enviarse por seguridad?:
+Por directrices de privacidad y seguridad, bajo ninguna circunstancia se deben enviar a Telegram:
+- Nombres completos de los ciudadanos denunciantes.
+- Números de documento de identidad.
+- Direcciones exactas de domicilio de personas particulares.
+- Teléfonos personales.
+- Contraseñas o tokens de acceso a la plataforma.
