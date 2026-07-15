@@ -1,0 +1,11 @@
+1. [Prioridad ALTA]
+Como ciudadano, quiero registrar una incidencia de servicios públicos en la plataforma para dejar evidencia formal del caso con fotos y descripción.
+
+2. [Prioridad MEDIA-ALTA]
+Como coordinador de la veeduría, quiero recibir una notificación automática en Telegram cada vez que se registre un nuevo reporte para revisarlo y gestionarlo rápidamente.
+
+3. [Prioridad MEDIA]
+Como miembro del equipo técnico, quiero poder consultar el listado completo de reportes registrados para hacer seguimiento al estado de su solución.
+
+4. [Prioridad BAJA]
+Como ciudadano, quiero visualizar en un mapa público las incidencias ya resueltas para comprobar los avances del sector en la comunidad.
