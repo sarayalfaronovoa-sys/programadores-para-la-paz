@@ -1,0 +1,12 @@
+Al realizar una petición GET a http://localhost:3000/reportes, el servidor responde con el array 'reportes' que se encuentra almacenado temporalmente en la memoria del servidor. 
+
+Si previamente se realizó una petición POST con un reporte de "Infraestructura", la respuesta esperada es un array JSON que contiene dicho objeto con su respectivo ID autoincremental:
+
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
+Si detenemos y reiniciamos el servidor, al hacer la consulta GET el array volverá a aparecer vacío debido a que la información se almacena en memoria volátil (RAM) y no en una base de datos persistente.
