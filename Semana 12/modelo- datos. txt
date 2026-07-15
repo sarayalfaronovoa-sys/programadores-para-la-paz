@@ -1,0 +1,15 @@
+Modelo de Datos - Petición en 3 Clics:
+Entidad: Causa
+- id (Identificador único de la causa)
+- titulo (Nombre representativo de la iniciativa)
+- descripcion (Detalle del problema comunitario a solucionar)
+- fecha (Día y hora de creación de la petición)
+
+Para qué sirve: Almacena la información principal de cada causa comunitaria propuesta para que sea visible públicamente y otros usuarios puedan conocer de qué se trata.
+Entidad: Apoyo
+- id (Identificador único del registro de apoyo)
+- causa_id (Relación directa con la causa que se está apoyando)
+- nombre (Nombre o identificación del ciudadano que apoya)
+- fecha (Día y hora en que se registró el apoyo)
+
+Para qué sirve: Registra de manera confiable cada respaldo ciudadano que se le da a una causa, lo que permite llevar el conteo oficial que validará la petición formal.
