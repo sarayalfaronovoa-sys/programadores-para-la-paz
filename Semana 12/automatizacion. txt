@@ -1,0 +1,10 @@
+Flujo de Automatización del Sistema:
+
+1. ¿Qué evento activa la automatización?:
+Se activa en el momento exacto en que una causa alcanza el número mínimo de apoyos requeridos por la comunidad.
+
+2. ¿Qué mensaje se envía?:
+¡Petición Completada! La causa titulada '{{ $json.titulo }}' ha alcanzado el 100% de los apoyos necesarios. El documento PDF formal ha sido generado automáticamente y está listo para ser presentado a las autoridades municipales.
+
+3. ¿Qué información no debe enviarse por seguridad?:
+Por directivas de privacidad y protección de datos, no se deben enviar datos personales de los ciudadanos que apoyaron (como cédulas, teléfonos, correos electrónicos o firmas), garantizando la confidencialidad y previniendo el mal uso de su información.
