@@ -1,0 +1,9 @@
+Al enviar la petición POST a http://localhost:3000/registro con el JSON de prueba, el servidor procesó correctamente los datos usando el middleware 'express.json()' y los leyó a través de 'req.body'. 
+La respuesta recibida fue un estado 200 OK con el siguiente objeto JSON:
+
+{
+  "estado": "Datos recibidos",
+  "nombre": "Saray",
+  "mensaje": "Hola comunidad"
+}
+Esto confirma que el servidor está escuchando correctamente en el puerto 3000, intercepta la ruta '/registro' y retorna de vuelta los datos que le enviamos de manera exitosa.
