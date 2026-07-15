@@ -1,0 +1,19 @@
+Entidad: Causa
+Campos principales:
+id (Identificador único, autoincremental)
+titulo (Texto corto para el nombre de la causa)
+descripcion (Texto largo con la explicación del problema comunitario)
+fecha (Fecha y hora de creación de la causa)
+
+Propósito:
+Almacenar de manera estructurada las causas comunitarias creadas por los ciudadanos, las cuales se mostrarán públicamente en la plataforma.
+
+Entidad: Apoyo
+Campos principales:
+id (Identificador único, autoincremental)
+causa_id (Clave foránea que conecta directamente con el id de la Causa apoyada)
+usuario (Nombre del usuario que registra el apoyo)
+fecha (Fecha y hora en la que se realizó el apoyo)
+
+Propósito:
+Registrar los apoyos individuales que recibe cada causa comunitaria para llevar un conteo exacto y transparente de la participación.
