@@ -1,0 +1,5 @@
+Información de los comandos ejecutados:
+- El comando 'uname -a' muestra información detallada del sistema operativo y del hardware. Incluye el nombre del núcleo (kernel), el nombre de host de la máquina, la versión del sistema, la fecha de compilación y la arquitectura del procesador (por ejemplo, x86_64).
+- El comando 'whoami' muestra el nombre del usuario con el que se está ejecutando la sesión actual en la terminal.
+Importancia al administrar un servidor:
+Conocer esta información es vital para un administrador de servidores, ya que permite verificar si se cuenta con los privilegios adecuados (como ser usuario root o administrador) antes de instalar programas. Además, conocer la versión exacta del sistema y del kernel permite saber si el servidor es compatible con ciertas aplicaciones o si requiere parches urgentes para corregir vulnerabilidades de seguridad conocidas.
