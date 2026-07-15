@@ -1,0 +1,16 @@
+Propuesta de diseño para la interfaz básica:
+La plataforma contará con una interfaz limpia y estructurada que se compone de las siguientes secciones:
+
+1. Formulario para crear una causa:
+Una sección destacada en la parte superior donde el usuario autenticado podrá rellenar campos de texto para el "Título" y la "Descripción" de una nueva problemática comunitaria, junto con un botón para "Publicar causa".
+
+2. Vista de causas disponibles:
+Un listado dinámico en forma de tarjetas donde se muestran todas las causas previamente registradas, organizadas por fecha de publicación para que cualquier usuario pueda leerlas de forma clara.
+
+3. Botón para apoyar una causa:
+Cada tarjeta del listado incluirá un botón interactivo y visible para que las personas puedan sumar su apoyo a esa causa específica con un solo clic.
+
+4. Contador de apoyos:
+Junto al botón de apoyo de cada causa, se visualizará un contador numérico en tiempo real que muestre la cantidad total de ciudadanos que han respaldado dicha iniciativa.
+
+Nota de seguridad: La interfaz será intuitiva y sencilla, cuidando de ocultar de la vista pública cualquier dato personal, de contacto o credencial de los usuarios que participan.
