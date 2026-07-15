@@ -1,0 +1,11 @@
+Respuestas de ejecución del servidor:
+1. ¿Qué ocurre cuando ejecutas 'node server.js'?:
+El entorno de Node.js interpreta y ejecuta el archivo. El proceso se queda activo en la terminal en primer plano, bloqueándola para recibir peticiones en tiempo real.
+2. ¿Qué mensaje aparece en la terminal?:
+Aparece el mensaje de confirmación: "Servidor ejecutándose en puerto 3000".
+3. ¿Qué sucede cuando visitas la ruta /estado?:
+Al abrir un navegador o usar una herramienta como Postman e ir a http://localhost:3000/estado, el servidor responde con un estado 200 OK y entrega el siguiente objeto JSON:
+{
+  "estado": "Servidor funcionando",
+  "servicio": "API comunitaria"
+}
