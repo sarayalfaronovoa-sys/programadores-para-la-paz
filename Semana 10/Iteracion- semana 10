@@ -1,0 +1,13 @@
+1. ¿Qué 2 tareas del backlog harías primero?:
+ Desarrollar el formulario para que el ciudadano registre la incidencia.
+ Conectar la base de datos o el almacenamiento del servidor para guardar de forma segura dicha incidencia.
+
+2. ¿Por qué son las más importantes?:
+Estas dos tareas constituyen el núcleo funcional de la aplicación. Sin la capacidad de capturar y persistir los datos de las incidencias que reportan los ciudadanos, no existiría información alguna sobre la cual enviar alertas o realizar seguimientos posteriores.
+
+3. ¿Qué significa que una tarea esté "terminada"? (Definition of Done - DoD):
+Para considerar que una tarea está completada, debe cumplir estrictamente con los siguientes 4 criterios:
+- El código funciona correctamente en el entorno local de desarrollo sin generar excepciones.
+- Se realizaron pruebas exitosas simulando peticiones de usuario finales.
+- El código fue documentado de forma clara y no expone credenciales ni datos sensibles.
+- Los cambios se confirmaron, se crearon los commits correspondientes y se subieron exitosamente al repositorio en Git.
